@@ -26,7 +26,7 @@
     "url": "https://github.com/Albuhrrito/League-Match-History-Analyzer/issues"
   },
   "engines": {
-    "node": ">=20.10",
+    "node": ">=22.13",
     "npm": ">=10.2"
   },
   "type": "module",

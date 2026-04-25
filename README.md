@@ -53,7 +53,7 @@ API keys live in the user's `localStorage`, never on a server. The worker is a s
 
 ## Quick start (local, demo only)
 
-Requires **Node 20+** and **npm 10+** (see `.nvmrc`).
+Requires **Node 22+** and **npm 10+** (see `.nvmrc`).
 
 ```bash
 git clone https://github.com/Albuhrrito/League-Match-History-Analyzer.git
