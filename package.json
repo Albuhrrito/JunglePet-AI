@@ -1,0 +1,71 @@
+{
+  "name": "junglepet-ai",
+  "private": true,
+  "version": "0.1.0",
+  "description": "AI-powered League of Legends coach. Analyzes match history and gives actionable improvement recommendations.",
+  "keywords": [
+    "league-of-legends",
+    "lol",
+    "riot-api",
+    "ai-coach",
+    "gemini",
+    "react",
+    "vite",
+    "typescript",
+    "tailwindcss",
+    "github-pages"
+  ],
+  "author": "Albuhrrito",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Albuhrrito/League-Match-History-Analyzer.git"
+  },
+  "homepage": "https://albuhrrito.github.io/League-Match-History-Analyzer/",
+  "bugs": {
+    "url": "https://github.com/Albuhrrito/League-Match-History-Analyzer/issues"
+  },
+  "engines": {
+    "node": ">=20.10",
+    "npm": ">=10.2"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "worker:dev": "npm --prefix worker run dev",
+    "worker:deploy": "npm --prefix worker run deploy"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.460.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.15.0",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.12.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.4.1",
+    "prettier-plugin-tailwindcss": "^0.6.9",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.16.0",
+    "vite": "^5.4.11"
+  }
+}

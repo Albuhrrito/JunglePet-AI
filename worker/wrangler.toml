@@ -1,0 +1,12 @@
+name = "junglepet-proxy"
+main = "src/index.ts"
+compatibility_date = "2024-12-01"
+
+# Stateless pass-through — no KV / DO / D1 bindings needed.
+
+[observability]
+enabled = true
+
+# Optional: rename "junglepet-proxy" above to your preferred subdomain.
+# After `wrangler deploy`, the URL printed is what you paste into the
+# JunglePet AI settings panel as "Cloudflare Worker URL".
